@@ -1,0 +1,18 @@
+name = "almadidd"
+compatibility_date = "2026-02-17"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
+
+[[routes]]
+pattern = "/did.json"
+path = "did.json"
+
+[[routes]]
+pattern = "/services.json"
+path = "services.json"
+
+[[routes]]
+pattern = "/keys.json"
+path = "keys.json"
